@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://dmwuea0g5677g"]
+
+[ext_resource type="PackedScene" uid="uid://bgykoih260tor" path="res://btnVolverMenuP.tscn" id="2_arl8h"]
+[ext_resource type="Texture2D" uid="uid://hl7b5xe8tn7y" path="res://icon.svg" id="3_vkotc"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Control" parent="." instance=ExtResource("2_arl8h")]
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(436, 242)
+texture = ExtResource("3_vkotc")
