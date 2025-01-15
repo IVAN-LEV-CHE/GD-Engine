@@ -1,4 +1,4 @@
-extends Node2D
+extends Control
 
 var change_sceneP = load("res://menuP.tscn")
 

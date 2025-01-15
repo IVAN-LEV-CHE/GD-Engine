@@ -2,7 +2,9 @@
 
 [ext_resource type="Script" path="res://btnVolverMenuP.gd" id="1_jl7m0"]
 
-[node name="Control" type="Node2D"]
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 0
 script = ExtResource("1_jl7m0")
 
 [node name="VOLVER" type="Button" parent="."]
