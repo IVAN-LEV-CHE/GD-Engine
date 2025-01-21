@@ -8,6 +8,7 @@ anchors_preset = 0
 script = ExtResource("1_jl7m0")
 
 [node name="VOLVER" type="Button" parent="."]
+layout_mode = 0
 offset_right = 8.0
 offset_bottom = 8.0
 text = "VOLVER"
