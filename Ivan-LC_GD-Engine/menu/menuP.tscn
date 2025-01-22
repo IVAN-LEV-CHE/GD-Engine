@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://cw7lmlukkk1qn"]
+[gd_scene load_steps=4 format=3 uid="uid://cw7lmlukkk1qn"]
 
 [ext_resource type="Script" path="res://menuP.gd" id="1_jmyc1"]
 [ext_resource type="Texture2D" uid="uid://bro4x4cnrmnu4" path="res://767433345_8028565_1706x960.webp" id="2_01qcb"]
+[ext_resource type="AudioStream" uid="uid://dei64sqod4k5c" path="res://addons/kenney_interface_sounds/back_003.wav" id="4_ign0a"]
 
 [node name="Node2D" type="Control"]
 layout_mode = 3
@@ -28,7 +29,11 @@ grow_horizontal = 2
 grow_vertical = 2
 text = "JUGAR"
 
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="JUGAR"]
+stream = ExtResource("4_ign0a")
+
 [node name="INSTRUCCIONES" type="Button" parent="."]
+layout_mode = 0
 offset_left = 504.0
 offset_top = 304.0
 offset_right = 648.0

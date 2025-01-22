@@ -1,8 +1,14 @@
-[gd_scene load_steps=2 format=3 uid="uid://dmwuea0g5677g"]
+[gd_scene load_steps=3 format=3 uid="uid://dmwuea0g5677g"]
 
+[ext_resource type="Texture2D" uid="uid://bx6s883lm76iq" path="res://5zrm2q.png" id="1_8hmfb"]
 [ext_resource type="PackedScene" uid="uid://bgykoih260tor" path="res://btnVolverMenuP.tscn" id="2_arl8h"]
 
 [node name="Node2D" type="Node2D"]
+
+[node name="5Zrm2q" type="Sprite2D" parent="."]
+position = Vector2(576, 324)
+scale = Vector2(6.19355, 4.18065)
+texture = ExtResource("1_8hmfb")
 
 [node name="creditos" type="Button" parent="."]
 offset_left = 152.0
