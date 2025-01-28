@@ -1,14 +1,20 @@
 [gd_scene load_steps=3 format=3 uid="uid://dmwuea0g5677g"]
 
 [ext_resource type="Texture2D" uid="uid://bx6s883lm76iq" path="res://5zrm2q.png" id="1_8hmfb"]
-[ext_resource type="PackedScene" uid="uid://bgykoih260tor" path="res://btnVolverMenuP.tscn" id="2_arl8h"]
+[ext_resource type="Script" path="res://menu_c.gd" id="1_jd5jw"]
 
 [node name="Node2D" type="Node2D"]
+script = ExtResource("1_jd5jw")
 
 [node name="5Zrm2q" type="Sprite2D" parent="."]
 position = Vector2(576, 324)
 scale = Vector2(6.19355, 4.18065)
 texture = ExtResource("1_8hmfb")
+
+[node name="Button" type="Button" parent="."]
+offset_right = 8.0
+offset_bottom = 8.0
+text = "VOLVER"
 
 [node name="creditos" type="Button" parent="."]
 offset_left = 152.0
@@ -21,4 +27,4 @@ text = "CREADO POR IVÁN LEVCHENKO CHERNOBAY
 LOS RECURSOS UITILIZADOS ESTÁN SACADOS DE LA GALERÍA DE GODOT ENGINE Y DE LA GALERÍA DE GOOGLE"
 flat = true
 
-[node name="Control" parent="." instance=ExtResource("2_arl8h")]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

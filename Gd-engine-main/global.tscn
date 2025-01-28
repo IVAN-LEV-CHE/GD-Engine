@@ -1,9 +1,18 @@
-[gd_scene load_steps=2 format=3 uid="uid://bxvavmrfaj2im"]
+[gd_scene load_steps=4 format=3 uid="uid://bxvavmrfaj2im"]
 
+[ext_resource type="AudioStream" uid="uid://c0y0n4g84vpu8" path="res://Red sun in the sky.mp3" id="1_5y1dk"]
 [ext_resource type="AudioStream" uid="uid://cicrq581u1pg4" path="res://01.01. Moonlight Sonata Op. 27, No. 2 In C Sharp Minor_ Adagio Sostenuto.mp3" id="1_8s0x8"]
+[ext_resource type="AudioStream" uid="uid://bufjyta5bcnam" path="res://addons/kenney_interface_sounds/pluck_001.wav" id="2_wwp6q"]
 
 [node name="Global" type="Node"]
 
+[node name="RedSunInTheSky" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_5y1dk")
+
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("1_8s0x8")
+volume_db = 24.0
 autoplay = true
+
+[node name="ButtonPress1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_wwp6q")

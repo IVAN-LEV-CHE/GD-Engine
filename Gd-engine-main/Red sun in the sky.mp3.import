@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c0y0n4g84vpu8"
+path="res://.godot/imported/Red sun in the sky.mp3-c8f46045304832f56c78f30b2417f394.mp3str"
+
+[deps]
+
+source_file="res://Red sun in the sky.mp3"
+dest_files=["res://.godot/imported/Red sun in the sky.mp3-c8f46045304832f56c78f30b2417f394.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
