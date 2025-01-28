@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cicrq581u1pg4"
+path="res://.godot/imported/01.01. Moonlight Sonata Op. 27, No. 2 In C Sharp Minor_ Adagio Sostenuto.mp3-19e00f9b19c1b12847e455a431aa9e27.mp3str"
+
+[deps]
+
+source_file="res://01.01. Moonlight Sonata Op. 27, No. 2 In C Sharp Minor_ Adagio Sostenuto.mp3"
+dest_files=["res://.godot/imported/01.01. Moonlight Sonata Op. 27, No. 2 In C Sharp Minor_ Adagio Sostenuto.mp3-19e00f9b19c1b12847e455a431aa9e27.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

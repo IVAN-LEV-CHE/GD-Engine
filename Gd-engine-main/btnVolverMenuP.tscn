@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://bgykoih260tor"]
+
+[ext_resource type="Script" path="res://btnVolverMenuP.gd" id="1_jl7m0"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_jl7m0")
+
+[node name="VOLVER" type="Button" parent="."]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+text = "VOLVER"
+
+[connection signal="pressed" from="VOLVER" to="." method="_on_volver_pressed"]

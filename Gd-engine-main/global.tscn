@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://bxvavmrfaj2im"]
+
+[ext_resource type="AudioStream" uid="uid://cicrq581u1pg4" path="res://01.01. Moonlight Sonata Op. 27, No. 2 In C Sharp Minor_ Adagio Sostenuto.mp3" id="1_8s0x8"]
+
+[node name="Global" type="Node"]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("1_8s0x8")
+autoplay = true
