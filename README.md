@@ -1,0 +1,8 @@
+No guardo rencor ni malicia hacia aquellos que accidentalmente traen desgracias a los demás. Es una elección permitir que la amargura de otro influya en el juicio de uno, ¿no es así? Una vida feliz es aquella en
+la que una persona es libre de buscar la satisfacción sin obstaculizar ni atacar a los demás. Como estoy completamente satisfecho conmigo mismo y con mi entorno, no tendría sentido que atacara en función de la
+malicia de otro, ¿correcto? No hay necesidad de cobrar una venganza mezquina en nombre de los sentimientos de otra persona hacia mí, ya que eso solo verifica esos sentimientos a través de la acción. Aun así, creo en
+defender la autonomía de los demás siempre que esas personas respeten mis propias libertades. Chocaste innecesariamente conmigo y profanaste mi apariencia sin provocación. Eso es toda una muestra de arrogancia, ¿no?
+Aquí estaba yo, intentando entrar en este edificio, solo para encontrarme con desprecio y hostilidad por parte de una persona previamente desconocida. Intento con todas mis fuerzas no atribuir la motivación a las
+elecciones de otra persona, ya que eso invita a los prejuicios y la inestabilidad emocional. Si uno examinara los resultados de sus decisiones en el vacío, descubriría que ha causado problemas a otra persona sin
+reconocer el papel que desempeñó en ellos. A mí, obviamente, no me preocupa, ya que los sentimientos de los demás no están relacionados con mi propia sensación de realización. Sin embargo, en un mundo justo, los
+derechos de uno deben ser respetados por los demás. ¿No merece ese mundo existir? ¿No merecen esas acciones algún tipo de compensación?
