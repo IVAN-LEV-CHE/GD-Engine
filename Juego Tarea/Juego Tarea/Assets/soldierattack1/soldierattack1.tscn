@@ -1,0 +1,63 @@
+[gd_scene load_steps=9 format=3 uid="uid://d17t853v5l8o8"]
+
+[ext_resource type="Texture2D" uid="uid://ccbl6opd885p" path="res://Assets/soldierattack1/Soldier-Attack01.png" id="1_bkwgq"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ccs3k"]
+atlas = ExtResource("1_bkwgq")
+region = Rect2(0, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1h563"]
+atlas = ExtResource("1_bkwgq")
+region = Rect2(100, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qam3e"]
+atlas = ExtResource("1_bkwgq")
+region = Rect2(200, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0hqnt"]
+atlas = ExtResource("1_bkwgq")
+region = Rect2(300, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mxnjx"]
+atlas = ExtResource("1_bkwgq")
+region = Rect2(400, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wxydm"]
+atlas = ExtResource("1_bkwgq")
+region = Rect2(500, 0, 100, 100)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_08yva"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ccs3k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1h563")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qam3e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0hqnt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mxnjx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wxydm")
+}],
+"loop": true,
+"name": &"soldierattack1",
+"speed": 12.0
+}]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(48, 48)
+sprite_frames = SubResource("SpriteFrames_08yva")
+animation = &"soldierattack1"
+frame_progress = 0.0786392
